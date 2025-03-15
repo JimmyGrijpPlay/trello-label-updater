@@ -5,15 +5,17 @@
     "dark": "https://jimmygrijpplay.github.io/trello-label-updater/images/icon-dark.png",
     "light": "https://jimmygrijpplay.github.io/trello-label-updater/images/icon-light.png"
   },
-  "author": "Your Name",
+  "author": "Jimmy Grijp",
   "capabilities": [
     "callback",
     "card-buttons",
-    "card-badges"
+    "card-badges",
+    "card-detail-badges",
+    "show-settings"
   ],
   "connectors": {
     "iframe": {
-      "url": "./index.html"
+      "url": "https://jimmygrijpplay.github.io/trello-label-updater/index.html"
     }
   }
 } 
