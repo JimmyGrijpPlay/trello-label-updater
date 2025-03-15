@@ -1,21 +1,19 @@
 {
-  "name": "Change Label-Id of any card",
-  "details": "Een Power-Up voor het automatisch bijwerken van labels",
+  "name": "Label Changer",
+  "details": "Change labels on cards",
   "icon": {
-    "dark": "https://jimmygrijpplay.github.io/trello-label-updater/images/icon-dark.png",
-    "light": "https://jimmygrijpplay.github.io/trello-label-updater/images/icon-light.png"
+    "dark": "https://cdn.hyperdev.com/us-east-1%3A3d31b21c-01a0-4da2-8827-4bc6e88b7618%2Ficon-gray.svg",
+    "light": "https://cdn.hyperdev.com/us-east-1%3A3d31b21c-01a0-4da2-8827-4bc6e88b7618%2Ficon-gray.svg"
   },
   "author": "Jimmy Grijp",
   "capabilities": [
     "callback",
-    "card-buttons",
-    "card-badges",
-    "card-detail-badges",
-    "show-settings"
+    "board-buttons",
+    "card-buttons"
   ],
   "connectors": {
     "iframe": {
-      "url": "https://jimmygrijpplay.github.io/trello-label-updater/index.html"
+      "url": "./index.html"
     }
   }
 } 
