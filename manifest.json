@@ -1,18 +1,19 @@
 {
   "name": "Card Label Changer",
-  "details": "Change labels on cards",
+  "details": "A Power-Up to change labels on cards",
   "icon": {
-    "dark": "https://cdn.hyperdev.com/us-east-1%3A3d31b21c-01a0-4da2-8827-4bc6e88b7618%2Ficon-gray.svg",
-    "light": "https://cdn.hyperdev.com/us-east-1%3A3d31b21c-01a0-4da2-8827-4bc6e88b7618%2Ficon-gray.svg"
+    "dark": "https://cdn.glitch.com/1b42d7fe-bda8-4af8-a6c8-eff0cea9e08a%2Frocket-ship.png?1494946700421",
+    "light": "https://cdn.glitch.com/1b42d7fe-bda8-4af8-a6c8-eff0cea9e08a%2Frocket-ship.png?1494946700421"
   },
   "author": "Jimmy Grijp",
   "capabilities": [
     "callback",
-    "card-buttons"
+    "card-buttons",
+    "board-buttons"
   ],
   "connectors": {
     "iframe": {
-      "url": "https://jimmygrijpplay.github.io/trello-label-updater/index.html"
+      "url": "./index.html"
     }
   }
 } 
