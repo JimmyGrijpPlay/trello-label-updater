@@ -8,12 +8,11 @@
   "author": "Jimmy Grijp",
   "capabilities": [
     "callback",
-    "board-buttons",
     "card-buttons"
   ],
   "connectors": {
     "iframe": {
-      "url": "./index.html"
+      "url": "https://jimmygrijpplay.github.io/trello-label-updater/index.html"
     }
   }
 } 
