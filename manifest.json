@@ -1,9 +1,9 @@
 {
-  "name": "Label Updater",
+  "name": "Change Label-Id of any card",
   "details": "Een Power-Up voor het automatisch bijwerken van labels",
   "icon": {
-    "dark": "./images/icon-dark.png",
-    "light": "./images/icon-light.png"
+    "dark": "https://jimmygrijpplay.github.io/trello-label-updater/images/icon-dark.png",
+    "light": "https://jimmygrijpplay.github.io/trello-label-updater/images/icon-light.png"
   },
   "author": "Your Name",
   "capabilities": [
