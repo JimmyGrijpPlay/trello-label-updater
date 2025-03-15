@@ -4,10 +4,10 @@ window.TrelloPowerUp.initialize({
   'card-buttons': function(t, options) {
     return [{
       icon: GRAY_ICON,
-      text: 'Change Label',
+      text: 'Change Card Label',
       callback: function(t) {
         return t.popup({
-          title: 'Change Label',
+          title: 'Card Label Changer',
           url: 'https://jimmygrijpplay.github.io/trello-label-updater/index.html',
           height: 200
         });
