@@ -1,0 +1,19 @@
+{
+  "name": "Label Updater",
+  "details": "Een Power-Up voor het automatisch bijwerken van labels",
+  "icon": {
+    "dark": "./images/icon-dark.png",
+    "light": "./images/icon-light.png"
+  },
+  "author": "Your Name",
+  "capabilities": [
+    "callback",
+    "card-buttons",
+    "card-badges"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  }
+} 
