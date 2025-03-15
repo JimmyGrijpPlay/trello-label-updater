@@ -6,10 +6,16 @@ window.TrelloPowerUp.initialize({
       callback: function(t) {
         return t.popup({
           title: 'Change Label-Id of any card',
-          url: './index.html',
+          url: 'https://jimmygrijpplay.github.io/trello-label-updater/index.html',
           height: 200
         });
       }
+    }];
+  },
+  'card-badges': function(t, options) {
+    return [{
+      text: 'Labels',
+      color: 'blue'
     }];
   }
 }); 
