@@ -2,16 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Card Label Changer</title>
+    <link rel="stylesheet" href="https://p.trellocdn.com/power-up.min.css">
     <script src="https://p.trellocdn.com/power-up.min.js"></script>
+    <style>
+      select { height: 30px; }
+    </style>
   </head>
   <body>
-    <h1>Card Label Changer</h1>
-    <button id="test">Test Button</button>
+    <div id="content">
+      <p>Hello World!</p>
+      <p>This is a sample Power-Up popup.</p>
+      <button id="close">Close</button>
+    </div>
     <script>
-      var t = window.TrelloPowerUp.iframe();
-      document.getElementById('test').addEventListener('click', function() {
-        console.log('Button clicked!');
+      var t = TrelloPowerUp.iframe();
+      document.getElementById('close').addEventListener('click', function(){
         t.closePopup();
       });
     </script>
